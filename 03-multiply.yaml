@@ -1,0 +1,22 @@
+- name: multiplay playbook
+  hosts: frontend
+  tasks:
+  - name: debug play01 and task01
+    ansible.built.debug:
+      msg: run play01 and task01
+
+  - name: debug play02 and task02
+    ansible.built.debug:
+      msg: run play02 and task02
+
+- name: multiplay playbook
+  hosts: frontend
+  tasks:
+  - name: debug play01 and task01
+    ansible.built.debug:
+      msg: run play01 and task01
+      
+  - name: debug play02 and task02
+    ansible.built.debug:
+      msg: run play02 and task02
+
