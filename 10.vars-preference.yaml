@@ -1,10 +1,10 @@
 - name: vars preference testing
   hosts: local
   connection: local
-  vars:
-    NAME: from vars level
-  vars_files:
-  - course.yaml
+  # vars:
+  #   NAME: from vars level
+  # vars_files:
+  # - course.yaml
   vars_prompt:
   - name: NAME
     prompt: what is your name?
@@ -19,4 +19,4 @@
 
 # 1.COMMAND LINE OR ARGS
 # 2.TASK LEVEL
-  
+# 3.vars level
