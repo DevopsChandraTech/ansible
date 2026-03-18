@@ -9,12 +9,13 @@
   - name: NAME
     prompt: what is your name?
     private: false
+
   # tasks:
   # - name: vars in tasks
   #   vars: 
   #     NAME: from task level
-  #   ansible.builtin.debug:
-  #     msg: "name is {{ NAME }}"
+    ansible.builtin.debug:
+      msg: "name is {{ NAME }}"
 
 # 1.COMMAND LINE OR ARGS
 # 2.TASK LEVEL
