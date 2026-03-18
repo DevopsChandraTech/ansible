@@ -1,7 +1,7 @@
 - name: vars in promt
   hosts: local
   connection: local
-  vars_promt:
+  vars_prompt:
   - name: username
     promt: what is your username?
     private: false
