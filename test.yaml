@@ -1,0 +1,44 @@
+# yaml everything is list of objects
+- name: "Chandra"
+  DOB: "24-24-24"
+  # List of Objects
+  Addresses:
+  # Object
+  - DoorNo: "1-56"
+    Street: "ram nagar"
+    City: "Hyderabad"
+    PIN: 345678
+    Type: "Perminant"
+  # Object
+  - DoorNo: "1-56"
+    Street: "ram nagar"
+    City: "Hyderabad"
+    PIN: 345678
+    Type: "Current"
+  Skills:
+  - java
+  - python
+  - devops
+  - ansible
+
+- name: "Rama"
+  DOB: "24-24-24"
+  # List of Objects
+  Addresses:
+  # Object
+  - DoorNo: "1-56"
+    Street: "ram nagar"
+    City: "Hyderabad"
+    PIN: 345678
+    Type: "Perminant"
+  # Object
+  - DoorNo: "1-56"
+    Street: "ram nagar"
+    City: "Hyderabad"
+    PIN: 345678
+    Type: "Current"
+  Skills:
+  - java
+  - python
+  - devops
+  - ansible

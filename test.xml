@@ -1,0 +1,49 @@
+<Student1>
+    <name>Chandra</name>
+    <DOB>01-01-01</DOB>
+    <Age>21</Age>
+    <!-- List of objects -->
+    <Addresses>
+        <!-- object -->
+        <Address type="PERM">
+            <name>Suresh</name>
+            <DoorNo>1-67</DoorNo>
+            <Street>roadno-2</Street>
+            <city>hyderabad</city>
+            <Pin>234567</Pin>
+        </Address>
+        <!-- object -->
+        <Address type="CURRENT">
+            <name>Ramesh</name>
+            <DoorNo>1-67</DoorNo>
+            <Street>roadno-2</Street>
+            <city>hyderabad</city>
+            <Pin>234567</Pin>
+        </Address>
+    </Addresses>
+</Student1>
+
+<Student2>
+    <name>Chandra</name>
+    <DOB>01-01-01</DOB>
+    <Age>21</Age>
+    <!-- List of objects -->
+    <Addresses>
+        <!-- object -->
+        <Address type="PERM">
+            <name>Suresh</name>
+            <DoorNo>1-67</DoorNo>
+            <Street>roadno-2</Street>
+            <city>hyderabad</city>
+            <Pin>234567</Pin>
+        </Address>
+        <!-- object -->
+        <Address type="CURRENT">
+            <name>Ramesh</name>
+            <DoorNo>1-67</DoorNo>
+            <Street>roadno-2</Street>
+            <city>hyderabad</city>
+            <Pin>234567</Pin>
+        </Address>
+    </Addresses>
+</Student2>

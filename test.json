@@ -1,0 +1,23 @@
+{
+    "Name":"Ramesh",
+    "DOB":"22-22-22",
+    "Street":"GandiNagar",
+    "Age":21,
+    "Addresses":[
+        {
+            "type":"Perminant",
+            "DoorNo":"2-21",
+            "Street":"GandiNagar",
+            "PIN":234567
+        },
+
+        {
+            "type":"Perminant",
+            "DoorNo":"2-21",
+            "Street":"GandiNagar",
+            "PIN":234567
+        }
+    ],
+    
+    "skills":["java","devops","Python"]
+}
