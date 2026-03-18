@@ -5,4 +5,5 @@
   - name: vars in args
     ansible.builtin.debug: 
       msg: "the course is {{ course }}, Duration is {{ duration }}, Trainer is {{ trainer }}."
-      
+
+# ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e ansible_password=DevOps321 -e "course=ansible" -e "trainer=SIVAANNA" -e "duration=120HRS" 09-ansible-args.yaml
